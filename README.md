@@ -4,11 +4,10 @@ Carbon-Mercury ocean-atmosphere model
 As used in Dal Corso et al. 2020 Nat. Comm.
 
 Contents:
-CARMER_frontend.m // Model frontend file // run this code to solve model and plot results // sets parameters and starting values, runs solver
 
-CARMER_equations.m // Model equations file // do not run this code directly // contains flux and reservoir calculations
-
-d13c_hg_data.mat // Datafile containing C and Hg data // plots automatically against model
+- CARMER_frontend.m // Model frontend file // run this code to solve model and plot results // sets parameters and starting values, runs solver
+- CARMER_equations.m // Model equations file // do not run this code directly // contains flux and reservoir calculations
+- d13c_hg_data.mat // Datafile containing C and Hg data // plots automatically against model
 
 Reproduction of paper plots:
 Lines 40-140 in the equations file cover the three scenarios tested in the paper. Comment each code block in our out to run.
